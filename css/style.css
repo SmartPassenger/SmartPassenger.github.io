@@ -1,0 +1,142 @@
+body {
+	overflow-x: hidden;
+	background-color: #baddf0;
+}
+
+
+.icon-bar {
+  overflow: hidden;
+  overflow-x: hidden;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	margin-left: -8px;
+  	z-index: 1;
+
+}
+
+.top {
+	box-shadow: 0 0.3vh 1vh rgba(0,0,0,0.5);
+}
+
+.bottom {
+	overflow: hidden;
+	overflow-x: hidden;
+	position: fixed;
+	top: auto;
+  	bottom: 0;
+  	width: 100%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+	overflow-x: hidden;
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  color: #171e42;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 5vh;
+  height: 10%;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.telegram {
+  background: #34abdf;
+  color: white;
+}
+
+.facebook {
+  background: #3b579d;
+  color: white;
+}
+
+.vkontakte {
+  background: #5181b8;
+  color: white;
+}
+
+.instagram {
+  background: #e52f45;
+  color: white;
+}
+
+.email {
+  background: #404040;
+  color: white;
+}
+
+.medium {
+  background: #303030;
+  color: white;
+}
+
+.yandex {
+  background: #fe0000;
+  color: white;
+}
+
+.bio {
+	position:absolute;
+	top: 12%;
+	height: 60%;
+	width: 100%;
+	z-index: 600;
+}
+
+.bio img {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 70%;
+}
+
+h1 {
+	position:absolute;
+	bottom: -7%;
+	width: 100%;
+	text-align: center;
+	font-size: 6.5vh;
+  	z-index: 999;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-shadow: 2px 2px 0.4vh rgba(0,0,0,0.3);
+}
+
+h2 {
+	position:absolute;
+	bottom: -25%;
+	width: 100%;
+	text-align: center;
+	font-size: 4.5vh;
+  	z-index: 999;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	line-height: 6vh;
+	text-shadow: 2px 2px 0.4vh rgba(0,0,0,0.2);
+}
+
+.forward-image {
+	transition-delay: 1s;
+	transition: 1s;
+	border-radius: 49%;
+}
+
+.forward-image:hover {
+	opacity: 0.0;
+
+	transition: 1s;
+	transition-delay: 1s;
+}
+
+.behind-image {
+	background-color: #5181b8;
+	border-radius: 50%;
+}
